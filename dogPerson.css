@@ -1,0 +1,25 @@
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.7;
+    min-width: 1000px;
+    margin-left: 40px;
+}
+.gallery_item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#dogVideo { 
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+} 
+#dogVideo video {
+    width: 980px;
+    height: 60%;
+    border: white solid 2px;
+    border-radius: 10px;
+    object-fit: contain;
+    background: linear-gradient(0deg, rgba(141, 130, 196, 0.7), rgba(36, 41, 67, 0.7));
+}
