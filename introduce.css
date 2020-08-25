@@ -9,6 +9,7 @@ p {
 body {
     background-color: rgb(36,41,67);
    }
+
 .nav-container {
     display: flex;
     flex-direction: row-reverse;
@@ -19,6 +20,7 @@ body {
     background-color: darkslategray;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 .nav-item {
     padding: 15px;
